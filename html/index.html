@@ -1,0 +1,579 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Cheshmehsar</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- main css & js -->
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css"> <!-- for glyph icon -->
+  <link rel="stylesheet" href="inc/bootstrap.css">
+  <link href="inc/mystyle.css" rel="stylesheet" type="text/css">
+  <script src="inc/jquery.js"></script>
+  <script src="inc/bootstrap.js"></script>
+  <!--  paralax -->
+  <link rel="stylesheet" href="inc/prallaxstyle.css" type="text/css">  
+  <script src="inc/jquery.scrolly.js"></script>
+  <script src="inc/index.js"></script>  
+  <!--  Video -->
+  <link rel="stylesheet" href="inc/videostyles.css" type="text/css" >
+    <!-- Slider -->
+    <script src="sliderengine/amazingslider.js"></script>
+    <link rel="stylesheet" type="text/css" href="sliderengine/amazingslider-1.css">
+    <script src="sliderengine/initslider-1.js"></script>
+ 
+</head>
+<body>
+
+<!--navigation bar-->
+<nav class="navbar navbar-inverse navbar-fixed-top">
+  <div class="container-fluid">
+    <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>                        
+        </button>
+      <a  class="navbar-brand" href="http://cheshmehsar.com"> <img src="images/logo_xs.png"> </a>
+    </div>
+      <div class="collapse navbar-collapse" id="myNavbar">
+        <ul class="nav navbar-nav">
+          <li><a class="scroll" href="#section_head">Home</a></li>
+          <li><a class="scroll" href="#section_about">About us</a></li>
+          <li><a class="scroll" href="#section_equip">Equipments</a></li>
+          <li><a class="scroll" href="#section_prod">Products</a></li>
+          <li><a class="scroll" href="#section_stand">Standards</a></li>
+          <li><a class="scroll" href="#section_contact">Contact us</a></li>          
+        </ul>
+        <ul class="nav navbar-nav navbar-right">
+          <li><a href="index.html"><span class="glyphicon glyphicon-globe"></span> English </a></li>
+          <li><a href="fa.html"><span class="glyphicon glyphicon-flag"></span> فارسی </a></li>
+        </ul>        
+      </div>
+  </div>
+</nav>    
+
+
+    <!-- section_head -->
+    <header id="section_head">
+    <div id="amazingslider-wrapper-1" style="display:block;position:relative;max-width:100%;margin:0 auto;">
+        <div id="amazingslider-1" style="display:block;position:relative;margin:0 auto;">
+            <ul class="amazingslider-slides" style="display:none;">
+                <li><img src="sliderimg/h1.png" alt="" />
+                </li>
+                <li><img src="sliderimg/h2.png" alt="" />
+                </li>
+                <li><img src="sliderimg/h3.png" alt="" />
+                </li>
+            </ul>
+            <ul class="amazingslider-thumbnails" style="display:none;">
+                <li><img src="sliderimg/h1-tn.png" alt="" /></li>
+                <li><img src="sliderimg/h2-tn.png" alt="" /></li>
+                <li><img src="sliderimg/h3-tn.png" alt="" /></li>
+            </ul>
+        </div>
+    </div>
+    
+        <div class="header-content">
+            <div class="inner" style="background-image:url(images/back.png); padding:20px 0px; border-radius:25px;">
+                <h1 class="cursive" style="font-size:50px; color:#000; text-shadow: 1px 1px 1px rgba(250, 206, 150, .7);">Cheshmehsar Co.</h1>
+                <h4  class="lato" style="color:#000; font-size:25px; text-shadow: 1px 1px 1px rgba(250, 206, 150, .7);">A Proud Iranian Cast Iron Foundry in Zanjan</h4>                
+                <button id="play" onclick="vidplay()" class="btn-warning btn-default">Play Video</button>
+            </div>
+        </div>
+
+        <video id="Video1" style="display:none;">
+             <source src="video/111.mp4" type="video/mp4" />
+             <a href="demo.mp4">Download the video</a> file. 
+        </video>
+            
+    </header>
+    <!-- End section_head -->
+
+
+<!--section_about-->
+<div id="section_about" class="container-fluid">
+  <div class="row"><div class="col-xs-10 col-xs-offset-1 col-sm-6 col-sm-offset-3 mytitle_orange">About us</div></div>
+    <div class="row">
+    <div class="col-xs-10 col-xs-offset-1 col-md-8 col-md-offset-2 ">
+     <p style="text-align:justify; color: #FFFFFF;">
+    With more than 30 years of experience, Cheshmehsar Foundry has been creating specialty cast iron products. It is a modern and innovative facility with 130,000 square meters of manufacturing space, located in Zanjan, Iran.
+
+We have the capacity to produce 10,000 tons per year using our automatic high volume molding lines. In addition to state-of-the-art NDT equipments, we are equipped with complete mechanical testing and metallography labs to ensure that we meet design specifications and comply with ISO/TS 16949. We strive for innovation and efficiency in the product development by utilizing computer aided pattern design (CAD) and simulation.
+ 
+We are involved in our community by supporting various organizations: Mehraneh, Roozbeh and Ra'd charities. We are also committed to youth education by creating coop placements with mentorship. 
+ <div style="text-align:center; font-size:large; margin:20px; color:#fff;">
+We pride ourselves in the quality of our products and the way we do business. We strongly believe in customer care and our long standing relationship with clients can attest to this approach.</div>
+
+    </p>
+    <p><img style="margin:auto; display:block;" src="images/chs.jpg" class="img-responsive"></p>
+    </div>
+    </div>          
+</div>
+
+<!--section_equip-->
+<div id="section_equip" class="container-fluid">
+  <div class="row"><div class="col-xs-10 col-xs-offset-1 col-sm-6 col-sm-offset-3 mytitle_black">Equipments</div></div>
+  <div class="row"><div style="color:#fff; font-size:20px; text-align:center;">Click on each item's image to learn more</div></div>
+
+                <div class="row" style="text-align:center; padding:50px;">
+                	<div class="col-md-3 col-sm-6 col-xs-12">
+                            <div class="zoom-in">
+                                <a data-toggle="modal" data-target="#myModal3">
+                                <img src="images/finish_icon.jpg" class="img-responsive myBorder22" style="margin:20px auto;"></a>
+                            </div>
+                            <div style="color:#fff; font-size:20px; text-align:center;"><a data-toggle="modal" data-target="#myModal3" style="color:#fff;">Finishing</a></div>
+                    </div> 
+                    <div class="col-md-3 col-sm-6 col-xs-12"  >
+                            <div class="zoom-in">
+                                <a data-toggle="modal" data-target="#myModal4">
+                                <img src="images/lab_icon.jpg" class="img-responsive myBorder22" style="margin:20px auto;"></a>
+                            </div>
+                            <div style="color:#fff; font-size:20px; text-align:center;"><a data-toggle="modal" data-target="#myModal4" style="color:#fff;">Laboratory</a></div>
+                    </div>                
+                    <div class="col-md-3 col-sm-6 col-xs-12"   >
+                            <div class=" zoom-in">
+                                <a data-toggle="modal" data-target="#myModal">
+                                <img src="images/melt_icon.jpg" class="img-responsive myBorder22" style="margin:20px auto; "></a>
+                            </div>
+                            <div style="color:#fff; font-size:20px; text-align:center;"><a data-toggle="modal" data-target="#myModal" style="color:#fff;">Melting</a></div>
+                    </div>
+                    <div class="col-md-3 col-sm-6 col-xs-12"   >
+                            <div class=" zoom-in">
+                                <a data-toggle="modal" data-target="#myModal2">
+                                <img src="images/mold_icon.jpg" class="img-responsive myBorder22" style="margin:20px auto; "></a>
+                            </div>
+                            <div style="color:#fff; font-size:20px; text-align:center;"><a data-toggle="modal" data-target="#myModal2" style="color:#fff;">Molding</a></div>
+                    </div>
+                </div>
+  
+</div>
+
+<!-- equipments	modals -->
+
+<div id="myModal4" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+        <h4 class="modal-title" align="center">Laboratory</h4>
+      </div>
+      <div>      
+      <img class="img-responsive img-thumbnail" src="images/lab1.jpg">
+      </div>
+      <div class="modal-body">        
+<p>
+In the series of Foundry Machinery and testing equipment, a wide range of Foundry Lab Testing Equipment are now used in Cheshmehsar Foundry Co to meet the requirements of our customers .In our fully equipped foundry necessary tests are conducted to be insured of casting quality
+</p>
+<p>
+<b style="color:#E99441;">1. Metallography Testing:</b>
+By optical microscopes, we use Clemex Vison to detect the accurate fraction of matrix and structures
+</p>
+<p>
+<b style="color:#E99441;">2. Chemical Analysis:</b>
+Our laboratory is equipped with two Spectro quantometers analyzing equipment’s and all the analyze results for each serial number of parts come with their certifications.
+</p>
+<p>
+<b style="color:#E99441;">3. Mechanical testing laboratory</b>
+ The laboratory is equipped with: tensile testing equipment and hardness testing equipment’s
+</p>
+<p>
+<b style="color:#E99441;">4. NDT laboratory</b>
+Laboratory is equipped with: Ultrasonic testing equipment, Eddy current testing equipment, magnetic particle testing equipment.
+</p>
+<p>
+<b style="color:#E99441;">5. Different type of modern sample preparation equipment’s</b>
+</p>
+<p>
+<b style="color:#E99441;">6. Different type of sand quality control equipment’s</b>
+</p>
+<p>
+We use quality management tools such as MSA and SPC to confirm the capability of our processes
+All the above equipment’s are Calibrated and confirmed by external eligible associations
+Laboratory is being audited by Sapco; IMQ and SGS
+</p>
+
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-warning" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+
+
+<div id="myModal3" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+        <h4 class="modal-title" align="center">Finishing</h4>
+      </div>
+      <div>
+      <img class="img-responsive img-thumbnail" src="images/finishing.jpg">
+      </div>
+      <div class="modal-body">
+        <p>Cheshmehsar 's finishing unit is equipped with 5 barrel and hanging shot blasting machines and 1 shot pining machine and the kind of packing is completely according with customer's needs. </p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-warning" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+
+
+<div id="myModal2" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+        <h4 class="modal-title" align="center">Molding Machine</h4>
+      </div>
+      <div>
+      <img class="img-responsive img-thumbnail" src="images/molding.jpg">
+      </div>
+      <div class="modal-body">
+        <p>
+Our automated molding machines provide high quality castings with unparalleled consistency in the finished product. Two Automated,  conveyorized molding equipment is used to create the customers' castings using our cores and high quality patterns. We have DISA automatic machine along with AGM to accommodate different sizes and quantities of castings per customer specifications. These molding lines are capable of handling castings ranging from Grams up to 50 Kgs</p>
+<p>
+<b style="color:#E99441;">DISAMATIC (2013 MK5B)</b><br>
+In 2008, Cheshmehsar Foundry introduced a new addition to their principal equipment, the DISA. By combining vertical and flaskless horizontal molding technologies, the Disamatic offers high precision, speed and quality.
+  Vertical production technology was first introduced in 1964, and then it was developed by DISA Industries A/S.  DISA Company is a world leader in the sphere of foundry casting equipment, foundry sand preparation systems, and mold core production equipment. 
+DISA molding lines have a great working stability they are compact and easy to operate. Majority of safety measures and protection devices protect operator on each working phase.
+</p>
+<p>
+<b style="color:#E99441;">AGM</b><br>
+In 2011, Cheshmehsar Foundry introduced a second Molding Machine. The AGM is a highly reliable and efficient machine, producing high-quality large castings...
+</p>
+<p>
+<b style="color:#E99441;">Sand preparation</b><br>
+The molding lines sand preparation is monitored and controlled by automatic Hartley system
+ </p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-warning" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+
+  </div>
+</div>
+  
+  
+  <div id="myModal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+        <h4 class="modal-title" align="center">Melting</h4>
+      </div>
+      <div>
+      <img class="img-responsive img-thumbnail" src="images/melting.jpg">
+      </div>
+      
+      <div class="modal-body">
+
+<p>
+Melting furnaces used in the foundry industry are of many diverse configurations. The selection of the melting unit is one of the most important decisions foundries must make with consideration to several important factors.
+</p>
+<p>
+In our leading-edge melting shop, materials are made individually for our customers. Next to plain grades conforming to all standards, our standard range covers some 30 different alloys that can be made according to specific requirement profiles.
+</p>
+<p>
+The raw materials on which our alloys are based include pig iron, steel scrap, foundry scrap, and recycled material. Effective quality assurance necessarily includes inspecting raw materials as they arrive. Furthermore, we continuously inspect melts by thermal and spectral analysis to ensure that their composition matches the customers' specifications.
+</p>
+<p>
+ <b style="color:#E99441; font-size:large;">Materials</b>
+ </p>
+ <p>
+<b style="color:#E99441;">Grey cast iron: </b>all grey cast iron materials GG 15 (EN-GJL 150) GG25 to GG 30 (EN-GJL 300), high-carbon and/or high-alloy
+<br><b style="color:#E99441;">Ductile Cast iron:</b> all ranges due to customers demand
+</p>
+<p>
+Due to importance of the melting process; Cheshmehsar Foundry is equipped with 5 modern induction INDUCTOTHERM coreless melting furnaces and INDUCTOTHERM auto pouring system with 13 tones capacity.
+</p>
+
+        
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-warning" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+
+
+
+<!--section_prod-->
+<div id="section_prod" class="container-fluid">
+  <div class="row"><div class="col-xs-10 col-xs-offset-1 col-sm-6 col-sm-offset-3 mytitle_black">Products</div></div>  
+</div>  
+
+<section id="story-freext" class="shadow">
+  <article>
+  	The art of <br> <h1> FOUNDRY </h1>
+    <p>Products List<br> <a href="#section_prod2"><span class="glyphicon glyphicon-chevron-down"></span></a></p>
+  </article>  
+  <div class="parallax" data-velocity="-.1"></div>
+  <div class="parallax" data-velocity="-.5" data-fit="750"></div>
+  <div class="parallax" data-velocity="-.6" data-fit="750"></div>
+  <div class="parallax" data-velocity="-.4" data-fit="750"></div>  
+</section> 
+
+<div id="section_prod2" class="container-fluid">
+    <div class="col-xs-12 col-md-10 col-md-offset-1">
+        <div class="carousel slide" id="myCarousel">
+          <div class="carousel-inner">
+                <div class="item active">
+                  <div class="col-lg-4 col-xs-4 col-md-4 col-sm-4">
+                  <div class="carosel_caption"><img src="images/prod/p1.png" class="img-responsive"></div></div>
+                </div>
+                <div class="item">
+                  <div class="col-lg-4 col-xs-4 col-md-4 col-sm-4">
+                  <div class="carosel_caption"><img src="images/prod/p2.png" class="img-responsive"></div></div>
+                </div>
+                <div class="item">
+                  <div class="col-lg-4 col-xs-4 col-md-4 col-sm-4">
+                  <div class="carosel_caption"><img src="images/prod/p3.png" class="img-responsive"></div></div>
+                </div>
+                <div class="item">
+                  <div class="col-lg-4 col-xs-4 col-md-4 col-sm-4">
+                  <div class="carosel_caption"><img src="images/prod/p4.png" class="img-responsive"></div></div>
+                </div>
+                <div class="item">
+                  <div class="col-lg-4 col-xs-4 col-md-4 col-sm-4">
+                  <div class="carosel_caption"><img src="images/prod/p5.png" class="img-responsive"></div></div>
+                </div>
+                <div class="item">
+                  <div class="col-lg-4 col-xs-4 col-md-4 col-sm-4">
+                  <div class="carosel_caption"><img src="images/prod/p6.png" class="img-responsive"></div></div>
+                </div>
+                <div class="item">
+                  <div class="col-lg-4 col-xs-4 col-md-4 col-sm-4">
+                  <div class="carosel_caption"><img src="images/prod/p7.png" class="img-responsive"></div></div>
+                </div>
+                <div class="item">
+                  <div class="col-lg-4 col-xs-4 col-md-4 col-sm-4">
+                  <div class="carosel_caption"><img src="images/prod/p8.png" class="img-responsive"></div></div>
+                </div>
+                <div class="item">
+                  <div class="col-lg-4 col-xs-4 col-md-4 col-sm-4">
+                  <div class="carosel_caption"><img src="images/prod/p9.png" class="img-responsive"></div></div>
+                </div>   
+                <div class="item">
+                  <div class="col-lg-4 col-xs-4 col-md-4 col-sm-4">
+                  <div class="carosel_caption"><img src="images/prod/p10.png" class="img-responsive"></div></div>
+                </div>
+                <div class="item">
+                  <div class="col-lg-4 col-xs-4 col-md-4 col-sm-4">
+                  <div class="carosel_caption"><img src="images/prod/p11.png" class="img-responsive"></div></div>
+                </div>
+                <div class="item">
+                  <div class="col-lg-4 col-xs-4 col-md-4 col-sm-4">
+                  <div class="carosel_caption"><img src="images/prod/p12.png" class="img-responsive"></div></div>
+                </div>
+                <div class="item">
+                  <div class="col-lg-4 col-xs-4 col-md-4 col-sm-4">
+                  <div class="carosel_caption"><img src="images/prod/p13.png" class="img-responsive"></div></div>
+                </div>
+                <div class="item">
+                  <div class="col-lg-4 col-xs-4 col-md-4 col-sm-4">
+                  <div class="carosel_caption"><img src="images/prod/p14.png" class="img-responsive"></div></div>
+                </div>                              
+          </div>
+          <a class="left carousel-control" href="#myCarousel" data-slide="prev"><i class="glyphicon glyphicon-chevron-left"></i></a>
+          <a class="right carousel-control" href="#myCarousel" data-slide="next"><i class="glyphicon glyphicon-chevron-right"></i></a>
+        </div>
+    </div>
+</div>
+
+
+<!--section_stand-->
+<div id="section_stand" class="container-fluid">    
+	<div class="row"><div class="col-xs-10 col-xs-offset-1 col-sm-6 col-sm-offset-3 mytitle_black">Standards</div></div>
+    <div class="row" style="text-align:center; padding:50px;">    	
+        <div class="col-xs-12 col-md-4">
+            <div class="zoom-in">
+            <a href="#" data-toggle="modal" data-target="#lightbox"> 
+                <img style="margin:20px; width:65%;" class="img-thumbnail img-responsive myBorder22" src="images/s1.jpg">
+            </a>
+            </div>
+        </div>
+        <div class="col-xs-12 col-md-4">
+            <div class="zoom-in">
+            <a href="#" data-toggle="modal" data-target="#lightbox"> 
+                <img style="margin:20px; width:65%;" class="img-thumbnail img-responsive myBorder22" src="images/s2.jpg">
+            </a>
+            </div>
+        </div>
+        <div class="col-xs-12 col-md-4">
+            <div class="zoom-in">
+            <a href="#" data-toggle="modal" data-target="#lightbox"> 
+                <img style="margin:20px; width:65%;" class="img-thumbnail img-responsive myBorder22" src="images/s3.jpg">
+            </a>
+            </div>
+        </div>
+    </div>    
+    <div id="lightbox" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <button type="button" class="close hidden" data-dismiss="modal" aria-hidden="true">×</button>
+            <div class="modal-content">
+                <div class="modal-body">
+                    <img src="" alt="" />
+                </div>
+            </div>
+        </div>
+    </div>  
+</div>
+
+<!--section_contact-->
+<div id="section_contact" class="container-fluid">
+  <div class="row"><div class="col-xs-10 col-xs-offset-1 col-sm-6 col-sm-offset-3 mytitle_orange">Contact us</div></div>
+	
+    <div class="row">
+        <div class="col-md-6 col-xs-12">
+                <iframe style="border:1; margin-top:30px; margin-bottom:30px;" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d51266.67276172996!2d48.68558907539976!3d36.5741921113058!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMzbCsDM0JzQxLjgiTiA0OMKwNDEnMjQuMiJF!5e0!3m2!1sen!2sir!4v1455562631254"
+                width="100%" height="300px" frameborder="1" allowfullscreen  > </iframe>
+        </div>      
+         
+        <div class="col-md-6 col-xs-12" style="margin:25px 0;">        
+
+        <div class="footText"> <span style="color:#E99441;">Contact Person: </span>Mr.Hesam Hajimohammadi   </div> 
+        <div class="footText"> <span style="color:#E99441;">Cell phone Number: </span>+98-9121411317</div>        
+        <div class="footText"> <span style="color:#E99441;">Address: </span>18th Km of Zanjan-Tehran Rd, Zanjan, IRAN</div>        
+        <div class="footText"> <span style="color:#E99441;">Email: </span>foundry@cheshmehsar.com</div>
+        <div class="footText"> <span style="color:#E99441;">Tel: </span>+98-24-32462341...4 </div>        
+        <div class="footText"> <span style="color:#E99441;">Fax: </span>+98-24-32462340</div>
+        <div class="footText"> <span style="color:#E99441;">Post box: </span>45195-1571  </div>
+		
+        </div>
+        
+    </div> 
+     
+     
+    <div class="row"><div class="col-xs-10 col-xs-offset-1 col-sm-6 col-sm-offset-3 mytitle_black">Send us an email</div></div>   
+    <div class="row">
+    <div class="col-xs-10 col-xs-offset-1 col-sm-6 col-sm-offset-3">
+        <form role="form" method="post" action="">
+          <div class="form-group">
+            <label for="mailsub"><span style="color:#E99441;">Subject:</span></label>
+            <input type="text" class="form-control" id="mailsub" required placeholder="* required">
+          </div>
+          <div class="form-group">
+            <label for="mailtxt"><span style="color:#E99441;">Message:</span></label>
+            <textarea rows="4" class="form-control" id="mailtxt" required placeholder="* required"></textarea>
+          </div>
+			<input type="button" class="btn-warning btn-lg pull-right" value="Send Email">
+        </form> 	
+    </div>    
+    </div>
+     
+</div>
+
+<!--section_foot-->
+<div id="section_foot" class="container-fluid">
+  <h4>All rights reserved for cheshmehsar company &copy; </h4>
+  <h5>Design by 7dolphin.com </h5>
+</div>
+
+<!--other scripts-->
+<script>
+$(document).ready(function(){
+  // Add scrollspy to <body>
+  $('body').scrollspy({target: ".navbar", offset: 50});   
+  // Add smooth scrolling on all links inside the navbar
+  $("#myNavbar a.scroll").on('click', function(event) {
+    event.preventDefault();
+    var hash = this.hash;
+    $('html, body').animate({
+      scrollTop: $(hash).offset().top
+    }, 800, function(){ 
+      window.location.hash = hash;
+    });
+  });
+
+  // Add smooth scrolling on article
+  $("article a").on('click', function(event) {
+    event.preventDefault();
+    var hash = this.hash;
+    $('html, body').animate({
+      scrollTop: $(hash).offset().top
+    }, 800, function(){ 
+      window.location.hash = hash;
+    });
+  });
+
+  
+  	// lightbox
+    var $lightbox = $('#lightbox');    
+    $('[data-target="#lightbox"]').on('click', function(event) {
+        var $img = $(this).find('img'), 
+            src = $img.attr('src'),
+            alt = $img.attr('alt'),
+            css = {
+                'maxWidth': $(window).width() - 100,
+                'maxHeight': $(window).height() - 100
+            };    
+        $lightbox.find('.close').addClass('hidden');
+        $lightbox.find('img').attr('src', src);
+        $lightbox.find('img').attr('alt', alt);
+        $lightbox.find('img').css(css);
+    });    
+    $lightbox.on('shown.bs.modal', function (e) {
+        var $img = $lightbox.find('img');            
+        $lightbox.find('.modal-dialog').css({'width': $img.width()});
+        $lightbox.find('.close').removeClass('hidden');
+    });  
+    // END light box
+
+
+// carosel
+$('#myCarousel').carousel({
+  interval: 2000
+});
+$('.carousel .item').each(function(){
+  var next = $(this).next();
+  if (!next.length) {
+    next = $(this).siblings(':first');
+  }
+  next.children(':first-child').clone().appendTo($(this));
+  if (next.next().length>0) { 
+      next.next().children(':first-child').clone().appendTo($(this)).addClass('rightest');     
+  }
+  else {
+      $(this).siblings(':first').children(':first-child').clone().appendTo($(this));     
+  }
+});
+// END carosel
+
+  
+});
+</script>
+
+
+
+<!-- video Play -->
+<script type="text/javascript">
+    function vidplay() {
+       var video = document.getElementById("Video1");
+       var button = document.getElementById("play");
+       if (video.paused) {
+          video.style.display = "block";
+		  video.play();
+          button.textContent = "Stop Video";
+       } else {
+		  video.style.display = "none"; 
+          video.pause();
+          button.textContent = "Play Video";
+       }
+    }      
+</script>
+<!-- END video play -->
+
+</body>
+</html>

@@ -1,0 +1,89 @@
+section {
+  position: relative;
+  width: 100% !important;
+  min-height: 560px;
+  overflow: hidden;
+}
+#story-freext
+{
+	  height:650px;
+	  background-color:white;
+	width:120%;
+}
+section article {
+  position: absolute;
+  top: 150px;
+  left: 50px;
+  width: 400px;
+  z-index: 4;
+  font-size: 45px;
+  line-height: 40px;
+  color: gray;
+  text-align:left;
+}
+section article p{
+  position: absolute;
+  top: 250px;
+  left: 50px;
+  width: 400px;
+  z-index: 4;
+  font-size: 30px;
+  line-height: 45px;
+  color: #3657A3;
+  text-align:center;
+}
+section article h1 {
+  color: #E99441;
+  font-size: 95px;
+  line-height: 85px;
+  margin-left:50px;
+}
+.parallax-item {
+  position: absolute;
+  z-index: 5;
+  top: 40px;
+  left: 400px;
+}
+
+#story-freext > div:nth-of-type(1) {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 1400px;
+  height:700px;
+
+}
+
+#story-freext > div:nth-of-type(2) {
+  position: absolute;
+  top: 0px;
+  left: 100px;
+  width: 100%;
+  height: 1600px;
+  background: url(../images/nike.png) 50% 0 no-repeat fixed;
+}
+#story-freext > div:nth-of-type(3) {
+  position: absolute;
+  top: 0px;
+  left: 100px;
+  width: 100%;
+  height: 1600px;
+  background: url(../images/nike2.png) 50% 0 no-repeat fixed;
+}
+#story-freext > div:nth-of-type(4) {
+  position: absolute;
+  top: 0px;
+  left: 100px;
+  width: 100%;
+  height: 1600px;
+  background: url(../images/nike3.png) 50% 0 no-repeat fixed;
+}
+
+#bottle > div:nth-of-type(1) {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 1200px;
+  background: url(http://lab.victorcoulon.fr/javascript/scrolly/img/bottle.jpeg) 50% 0 no-repeat fixed;
+}
